@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-primary">
+        <h1 class="text-center p-3 text-white">landing page generator</h1>
+        <div class="col-md-3 col-xl-2 bd-sidebar">
+            <nav id="navbar" class="nav flex-column position-fixed border-right h-100">
+                <header class="text-center">OPTIONS</header>
+                <label for="url">Enter an https:// URL:</label>
+                <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30"
+                    required>
+                <label for="formControlRange">RED</label>
+                <input type="range" class="form-control-range" id="red_range" min="0" max="255">
+                <label for="formControlRange">GREEN</label>
+                <input type="range" class="form-control-range" id="green_range" min="0" max="255">
+                <label for="formControlRange">BLUE</label>
+                <input type="range" class="form-control-range" id="blue_range" min="0" max="255">
+                <input class="form-control form-control-sm" type="text" placeholder="TEXT 1" id="text_1_input">
+                <input class="form-control form-control-sm" type="text" placeholder="TEXT 2" id="text_2_input">
+
+                <button class="btn btn-outline-primary btn-sm" href="#">2</button>
+                <button class="btn btn-outline-primary btn-sm" href="#">3</button>
+                <button class="btn btn-outline-primary btn-sm" href="#">4</button>
+                <button class="btn btn-outline-primary btn-sm" href="#">5</button>
+            </nav>
+
+        </div>
+
+    </div>
+    <div class="container d-flex align-items-center justify-content-center flex-column" id="main_page">
+        <h1 class="text-center pt-5 mt-5" id="text_1_display">Text 1</h1>
+        <h1 class="text-center" id="text_2_display">Text 2</h1>
+        <button class="btn btn-primary">Text</button>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <script src="script.js"></script>
+    <!--script src="script.js"</script-->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
